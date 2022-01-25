@@ -1,0 +1,47 @@
+{
+	"name": "create-turbosvelte",
+	"version": "1.0.0",
+	"description": "This is an unofficial SvelteKit monorepo starter powered by Turborepo.",
+	"bin": "./bin/cli.cjs",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev --parallel",
+		"lint": "turbo run lint"
+	},
+	"devDependencies": {
+		"turbo": "latest",
+		"prettier": "^2.4.1",
+		"prettier-plugin-svelte": "^2.4.0"
+	},
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Brisklemonade/turbosvelte.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"turbo": {
+		"pipeline": {
+			"build": {
+				"dependsOn": [
+					"^build"
+				],
+				"outputs": [
+					"dist/**",
+					".next/**"
+				]
+			},
+			"lint": {
+				"outputs": []
+			},
+			"dev": {
+				"cache": false
+			}
+		}
+	},
+	"type": "module"
+}
