@@ -1,25 +1,24 @@
 {
-  "name": "rename-core",
+  "name": "sveltekit-package-template",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "eslint --ignore-path .gitignore ."
+    "package": "svelte-kit package"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
-    "eslint": "^7.32.0",
-    "eslint-plugin-svelte3": "^3.2.1",
-    "svelte": "^3.44.0",
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.10",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4",
+    "svelte": "^3.42.6",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.9.4",
+    "svelte2tsx": "^0.4.8",
     "tslib": "^2.3.1",
     "typescript": "^4.4.3"
   },
