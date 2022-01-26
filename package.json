@@ -25,6 +25,8 @@
 	"author": "",
 	"license": "MIT",
 	"turbo": {
+		"baseBranch": "origin/main",
+		"npmClient": "npm",
 		"pipeline": {
 			"build": {
 				"dependsOn": [
@@ -32,7 +34,7 @@
 				],
 				"outputs": [
 					"dist/**",
-					".next/**"
+					".build/**"
 				]
 			},
 			"lint": {

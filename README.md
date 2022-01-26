@@ -10,8 +10,8 @@ This Turborepo includes the following packages and apps:
 ### Apps and Packages
 
 - `docs`: A placeholder documentation site powered by [MdSvex](https://mdsvex.pngwn.io/docs/) (coming soon)
-- `@rename/core`: core components
-- `@rename/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
+- `rename-core`: core components
+- `rename-tsconfig`: shared `tsconfig.json`s used throughout the monorepo
 - `eslint-preset-acme`: ESLint preset (coming soon)
 
 Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
@@ -29,7 +29,7 @@ This turborepo has some additional tools already setup for you:
 Run the following command:
 
 ```bash
-npx create-turbosvelte your-app
+npx create-turbosvelte app-name
 ```
 
 ### Changing the NPM organization scope
