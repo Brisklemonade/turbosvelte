@@ -1,9 +1,13 @@
 <script lang="ts">
-    import '../app.css'
+	import Navbar from '$lib/PageComponents/Navbar.svelte';
+	import '../app.css';
+
+	let dark: boolean = true;
 </script>
 
-<slot><!-- optional fallback --></slot>
-
-<style>
-    /* your styles go here */
-</style>
+<div class:dark>
+	<Navbar {dark} />
+	<div id="page" class="mt-20 mb-40">
+		<slot />
+	</div>
+</div>

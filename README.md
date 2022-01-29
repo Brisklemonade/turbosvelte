@@ -9,7 +9,7 @@ This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `docs`: A placeholder documentation site powered by [MdSvex](https://mdsvex.pngwn.io/docs/) (coming soon)
+- `docs`: [Sveleton](https://github.com/Brisklemonade/sveleton) placeholder documentation site
 - `rename-core`: core components
 - `rename-tsconfig`: shared `tsconfig.json`s used throughout the monorepo
 - `eslint-preset-acme`: ESLint preset (coming soon)
