@@ -1,7 +1,6 @@
 <p align="center">
   <h1 align="center">Turborepo SvelteKit System starter</h1>
   <h3 align="center">This is an unofficial SvelteKit monorepo starter powered by Turborepo.</h3>
-  <img align="center" src="https://repobeats.axiom.co/api/embed/ba95c2aeb60347c227dbb68d4e50a8a6c8cee6f2.svg" alt="Repobeats analytics image" />
 </p>
 
 # What's inside?
