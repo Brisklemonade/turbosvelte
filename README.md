@@ -12,7 +12,7 @@ This Turborepo includes the following packages and apps:
 - `docs`: [Sveleton](https://github.com/Brisklemonade/sveleton) placeholder documentation site
 - `rename-core`: core components
 - `rename-tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `eslint-preset-acme`: ESLint preset (coming soon)
+- `eslint-preset-rename`: ESLint preset (coming soon)
 
 Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
 
