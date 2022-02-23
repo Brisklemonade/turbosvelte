@@ -16,15 +16,7 @@ This Turborepo includes the following packages and apps:
 
 Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
 
-### Utilities
-
-This turborepo has some additional tools already setup for you:
-
-- [Typescript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-## Installation
+# Installation
 
 Run the following command:
 
@@ -32,7 +24,28 @@ Run the following command:
 npx create-turbosvelte app-name
 ```
 
-### Changing the NPM organization scope
+## Project Configuration
+
+### **Running concurrent dev enviornments**
+
+As of now if you want to run multiple dev enviornments in parallel, you will have to define different ports in your scripts.
+
+So you will have to change each `package.json` like such:
+
+```bash
+"scripts": {
+    "dev": "svelte-kit dev -p 3200",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "package": "svelte-kit package"
+  },
+```
+
+Each project's port will need to be different.
+
+### **Changing the NPM organization scope**
 
 The NPM organization scope for this design system starter is `@rename`. To change this, it's a bit manual at the moment, but you'll need to do the following:
 

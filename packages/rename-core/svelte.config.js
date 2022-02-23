@@ -10,7 +10,7 @@ const config = {
 		postcss: {
 			plugins: [autoprefixer(), cssnano()]
 		}
-	}),
+	})
 };
 
 export default config;
