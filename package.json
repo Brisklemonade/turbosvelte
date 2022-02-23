@@ -1,6 +1,6 @@
 {
 	"name": "create-turbosvelte",
-	"version": "1.2.0",
+	"version": "1.5.0",
 	"description": "This is an unofficial SvelteKit monorepo starter powered by Turborepo.",
 	"bin": "./bin/cli.cjs",
 	"workspaces": [
