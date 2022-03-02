@@ -3,41 +3,29 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Brisklemonade/sveleton">
+  <a href="https://github.com/rename/rename">
     <img src="static/sveleton logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">Sveleton</h1>
+  <h1 align="center">rename</h1>
 
   <p align="center">
-    A "skeleton" documentation site powered by MdSvex & Svelte!
+    A documentation site for rename packages!
     <br />
-    <a href="https://github.com/Brisklemonade/sveleton"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rename/rename"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://sveleton-csttwfha1-brisklemonade.vercel.app/">View Demo</a>
+    <a href="https://rename-csttwfha1-rename.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/Brisklemonade/sveleton/issues">Report Bug</a>
+    <a href="https://github.com/rename/rename/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Brisklemonade/sveleton/issues">Request Feature</a>
+    <a href="https://github.com/rename/rename/issues">Request Feature</a>
   </p>
 </div>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-Sveleton (pronounced like skeleton but with a v) is a pretty "bare bones" documentation starter project. It utilizes MdSvex for the power of markdown in your svelte components, as well as tailwind for quick styling. With both of those combined, documentation will be a breeze!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
-## Installation
-
-```bash
-npm init sveleton app-name
-```
 
 <!-- CONTRIBUTING -->
 
@@ -68,6 +56,6 @@ Distributed under the MIT License
 
 ## Contact
 
-Twitter - [Brisklemonaid](https://twitter.com/brisklemonaid)
+Twitter - [yournamehere](https://example.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
