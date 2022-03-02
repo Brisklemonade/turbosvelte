@@ -12,7 +12,7 @@ This Turborepo includes the following packages and apps:
 - `docs`: [Sveleton](https://github.com/Brisklemonade/sveleton) placeholder documentation site
 - `rename-core`: core components
 - `rename-tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `eslint-preset-rename`: ESLint preset (coming soon)
+- `eslint-preset-rename`: ESLint preset
 
 Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
 
@@ -24,7 +24,11 @@ Run the following command:
 npx create-turbosvelte app-name
 ```
 
-## Project Configuration
+# Project Configuration
+
+### **Modify the root `package.json`**
+
+Make sure to modify the contents in the project's root package json to fit your needs.
 
 ### **Running concurrent dev enviornments**
 
